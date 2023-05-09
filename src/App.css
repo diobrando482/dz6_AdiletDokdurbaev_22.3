@@ -1,0 +1,64 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+
+.read-the-docs {
+  color: #555;
+}
+
+.productCard {
+  width: 300px;
+  height: 600px;
+  text-align: center;
+  border: 2px solid #999;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb88);
+}
+.active {
+  color: #555;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  height: 90px;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  background-color: #444;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.nav a.active {
+  background-color: #555;
+  color: #fff;
+}
